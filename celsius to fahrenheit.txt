@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+
+int main() {
+    // Prompt user for input
+    double celsius, fahrenheit;
+    std::cout << "Enter temperature in Celsius";
+    std::cin >> celsius;
+    
+    //Convert Celsius to Fahrenheit
+    fahrenheit = (9.0 / 5) * celsius + 32;
+    
+    //Display the result
+    std::cout << "Temperature in Fahrenheit:" << fahrenheit << std::endl;
+
+    return 0;
+}
